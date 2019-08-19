@@ -2537,6 +2537,12 @@ textarea.form-control {
 
 .search-bar{
 	border: 1px solid $black;
+	height: 25rem;
+	width: 300px;
+	@include media-breakpoint-down(sm){
+		height: 100%;
+	}
+
 	//box-shadow: 0 0 0 1px $black;
 	//padding: 2px;
 }
