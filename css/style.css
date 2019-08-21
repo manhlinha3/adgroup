@@ -10412,8 +10412,16 @@ a:hover, a:focus {
   color: #755841;
 }
 
-h1, h2, h3, h4, h5,
-.h1, .h2, .h3, .h4, .h5 {
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
   line-height: 1.5;
   font-weight: 400;
   color: #423f3b;
@@ -10663,8 +10671,8 @@ h1, h2, h3, h4, h5,
 }
 
 .ftco-navbar-light.scrolled .nav-link {
-  padding-top: 0.9rem !important;
-  padding-bottom: 0.9rem !important;
+  padding-top: .9rem !important;
+  padding-bottom: .9rem !important;
   color: #423f3b !important;
 }
 
@@ -11453,7 +11461,8 @@ h1, h2, h3, h4, h5,
   color: #423f3b;
 }
 
-.product .text .pricing, .product .text .rating {
+.product .text .pricing,
+.product .text .rating {
   width: 50%;
 }
 
@@ -11473,14 +11482,16 @@ h1, h2, h3, h4, h5,
   background: #fff;
 }
 
-.product .text .bottom-area a.add-to-cart, .product .text .bottom-area a.buy-now {
+.product .text .bottom-area a.add-to-cart,
+.product .text .bottom-area a.buy-now {
   font-size: 13px;
   color: #423f3b;
   text-transform: uppercase;
   font-weight: 300;
 }
 
-.product .text .bottom-area a.add-to-cart i, .product .text .bottom-area a.buy-now i {
+.product .text .bottom-area a.add-to-cart i,
+.product .text .bottom-area a.buy-now i {
   font-size: 16px;
 }
 
@@ -11543,7 +11554,8 @@ h1, h2, h3, h4, h5,
   padding: 0 15px;
 }
 
-.product-details button, .product-details .form-control {
+.product-details button,
+.product-details .form-control {
   height: 40px !important;
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.1) !important;
@@ -11554,7 +11566,9 @@ h1, h2, h3, h4, h5,
   font-size: 14px;
 }
 
-.product-details button:hover, .product-details button:focus, .product-details .form-control:hover, .product-details .form-control:focus {
+.product-details button:hover, .product-details button:focus,
+.product-details .form-control:hover,
+.product-details .form-control:focus {
   text-decoration: none;
   outline: none;
 }
@@ -11636,7 +11650,8 @@ h1, h2, h3, h4, h5,
   padding: 16px 20px;
 }
 
-.ftco-cart button, .ftco-cart .form-control {
+.ftco-cart button,
+.ftco-cart .form-control {
   height: 54px !important;
   text-align: center;
   bordeR: 1px solid rgba(0, 0, 0, 0.05) !important;
@@ -11825,11 +11840,13 @@ h1, h2, h3, h4, h5,
   color: black !important;
 }
 
-.billing-form .select-wrap, .billing-form .input-wrap {
+.billing-form .select-wrap,
+.billing-form .input-wrap {
   position: relative;
 }
 
-.billing-form .select-wrap select, .billing-form .input-wrap select {
+.billing-form .select-wrap select,
+.billing-form .input-wrap select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -12619,13 +12636,15 @@ textarea.form-control {
   padding: 0;
 }
 
-.block-23 ul li, .block-23 ul li > a {
+.block-23 ul li,
+.block-23 ul li > a {
   display: table;
   line-height: 1.5;
   margin-bottom: 15px;
 }
 
-.block-23 ul li .icon, .block-23 ul li .text {
+.block-23 ul li .icon,
+.block-23 ul li .text {
   display: table-cell;
   vertical-align: top;
 }
@@ -12755,7 +12774,8 @@ textarea.form-control {
   font-weight: 400;
 }
 
-.block-27 ul li a, .block-27 ul li span {
+.block-27 ul li a,
+.block-27 ul li span {
   color: #423f3b;
   text-align: center;
   display: inline-block;
@@ -12767,7 +12787,8 @@ textarea.form-control {
   background: #fff;
 }
 
-.block-27 ul li.active a, .block-27 ul li.active span {
+.block-27 ul li.active a,
+.block-27 ul li.active span {
   background: #423f3b;
   color: #fff;
   border: 1px solid transparent;
@@ -12972,11 +12993,13 @@ textarea.form-control {
   margin-bottom: 30px;
 }
 
-.categories, .sidelink {
+.categories,
+.sidelink {
   padding: 0;
 }
 
-.categories li, .sidelink li {
+.categories li,
+.sidelink li {
   position: relative;
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -12984,25 +13007,29 @@ textarea.form-control {
   list-style: none;
 }
 
-.categories li:last-child, .sidelink li:last-child {
+.categories li:last-child,
+.sidelink li:last-child {
   margin-bottom: 0;
   border-bottom: none;
   padding-bottom: 0;
 }
 
-.categories li a, .sidelink li a {
+.categories li a,
+.sidelink li a {
   display: block;
   color: #423f3b;
 }
 
-.categories li a span, .sidelink li a span {
+.categories li a span,
+.sidelink li a span {
   position: absolute;
   right: 0;
   top: 0;
   color: #ccc;
 }
 
-.categories li.active a, .sidelink li.active a {
+.categories li.active a,
+.sidelink li.active a {
   color: #423f3b;
   font-style: italic;
 }
@@ -13168,10 +13195,6 @@ textarea.form-control {
   color: #755841;
 }
 
-.search-bar {
-  border: 1px solid #423f3b;
-}
-
 .center {
   text-align: center;
   margin: auto;
@@ -13183,5 +13206,40 @@ textarea.form-control {
 
 .text-black {
   color: #423f3b !important;
+}
+
+.lang-flag {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lang-flag li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.search-bar .card {
+  margin: 0.25rem;
+}
+
+.search-bar .card .card-body {
+  padding: 0rem;
+  margin: 0.25rem;
+}
+
+.more-information input {
+  height: 300px;
 }
 /*# sourceMappingURL=style.css.map */
